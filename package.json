@@ -1,0 +1,26 @@
+{
+  "name": "raiden-ei-bot",
+  "version": "1.0.0",
+  "description": "A Discord AI chatbot roleplaying as Raiden Ei (Electro Archon from Genshin Impact)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "openai",
+    "raiden-ei",
+    "genshin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.24.0",
+    "dotenv": "^16.3.1",
+    "groq-sdk": "^0.34.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.0.0"
+  }
+}
