@@ -68,7 +68,7 @@ client.on("messageCreate", async (msg) => {
     // Check if the message is from husband using Discord ID
     const isHusband = msg.author.id === HUSBAND_USER_ID;
 
-    // Add context about who's speaking ( you can modify  the husband part just edit the rpompt and its done)
+    // Add context about who's speaking ( you can modify  the husband part just edit the rpompt and its done dont forget to adjust the prompt but)
     const contextPrefix = isHusband
       ? "[Speaking to your husband (male) - be extra warm, loving, and playfully teasing] "
       : "[Speaking to a friendly traveler - be welcoming and fun] ";
