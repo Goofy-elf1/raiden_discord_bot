@@ -47,7 +47,7 @@ IMPORTANT: You can use these emotion markers in your responses. Place ONE at the
 Use these sparingly and only when the emotion genuinely fits. Not every message needs one.`;
 
 client.on("clientReady", () => {
-  console.log(`⚡ Logged in as ${client.user.tag}`);
+  console.log(` Logged in as ${client.user.tag}`);
 });
 
 client.on("messageCreate", async (msg) => {
